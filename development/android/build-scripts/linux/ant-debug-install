@@ -1,0 +1,10 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd $DIR
+
+JAVA_HOME=/usr/lib/jvm/default-java
+
+cd ../..
+
+ant debug install

@@ -1,0 +1,14 @@
+<window>
+	name:scan_other
+	starting_position:-1,-1
+	width:720
+	height:1280
+	title:Other Sensors
+	close_function:scan_other
+	
+	<info>
+		location:2,36
+		special_text:scan_other
+	</info>
+	
+</window>

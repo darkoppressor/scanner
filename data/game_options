@@ -1,0 +1,131 @@
+<game_option>
+	name:cl_effect_limit
+	default:8192
+	description:the maximum number of simultaneous effects
+</game_option>
+
+<game_option>
+	name:cl_screen_shake
+	default:true
+	description:enable screen shake effects
+</game_option>
+
+<game_option>
+	name:cl_rumble
+	default:true
+	description:enable rumble effects
+</game_option>
+
+<game_option>
+	name:cl_screensaver
+	default:false
+	description:enable the screensaver
+</game_option>
+
+<game_option>
+	name:cl_camera_speed
+	default:960.0
+	description:the speed of camera movement with the directional keys in pixels/second
+</game_option>
+
+<game_option>
+	name:cl_camera_zoom
+	default:1.0
+	description:the starting zoom level of the camera
+</game_option>
+
+<game_option>
+	name:cl_name
+	default:Newbie
+	description:your name
+</game_option>
+
+<game_option>
+	name:cl_chat_timestamps
+	default:true
+	description:show timestamps in chat
+</game_option>
+
+<game_option>
+	name:cl_network_rate_bytes
+	default:10000
+	description:the desired rate for receiving updates from the server in bytes/second
+</game_option>
+
+<game_option>
+	name:cl_network_rate_updates
+	default:20
+	description:the desired rate for receiving updates from the server in updates/second
+</game_option>
+
+<game_option>
+	name:cl_network_rate_commands
+	default:30
+	description:the rate for sending command updates to the server in updates/second
+</game_option>
+
+<game_option>
+	name:sv_max_players
+	default:4
+	description:the maximum allowed number of players
+</game_option>
+
+<game_option>
+	name:sv_network_max_clients
+	default:3
+	description:the maximum allowed number of connected clients
+</game_option>
+
+<game_option>
+	name:sv_network_port
+	default:60000
+	description:the port to run the server on
+</game_option>
+
+<game_option>
+	name:sv_network_password
+	default:
+	description:the password required for clients to connect\n - an empty string disables the password\n - clear the password by passing -c\n - 32 characters maximum
+</game_option>
+
+<game_option>
+	name:sv_network_name
+	default:Cheesy Game Server
+	description:the name of the server\n - 48 characters maximum
+</game_option>
+
+<game_option>
+	name:sv_network_frequent_connection_protection
+	default:false
+	description:enable protection against rapid reconnects
+</game_option>
+
+<game_option>
+	name:sv_network_ignore_checksum
+	default:false
+	description:ignore connecting clients' checksums
+</game_option>
+
+<game_option>
+	name:sv_network_rate_bytes_min
+	default:0
+	description:the minimum allowed rate for sending updates to clients in bytes/second\n - 0 = unlimited
+</game_option>
+
+<game_option>
+	name:sv_network_rate_bytes_max
+	default:0
+	description:the maximum allowed rate for sending updates to clients in bytes/second\n - 0 = unlimited
+</game_option>
+
+<game_option>
+	name:sv_network_rate_updates_min
+	default:10
+	description:the minimum allowed rate for sending updates to clients in updates/second\n - 0 = unlimited
+</game_option>
+
+<game_option>
+	name:sv_network_rate_updates_max
+	default:60
+	description:the maximum allowed rate for sending updates to clients in updates/second\n - 0 = unlimited
+</game_option>

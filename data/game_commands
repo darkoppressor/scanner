@@ -1,0 +1,29 @@
+<game_command>
+	name:pause
+	title:Pause
+	description:Pause the game
+	developer:false
+	key:Pause
+	controller_button:back
+	controller_axis:
+</game_command>
+
+<game_command>
+	name:chat
+	title:Chat
+	description:Pull up the chat box
+	developer:false
+	key:Return
+	controller_button:
+	controller_axis:
+</game_command>
+
+<game_command>
+	name:scoreboard
+	title:Scoreboard
+	description:Hold to display the scoreboard
+	developer:false
+	key:Tab
+	controller_button:
+	controller_axis:
+</game_command>

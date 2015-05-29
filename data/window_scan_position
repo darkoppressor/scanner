@@ -1,0 +1,14 @@
+<window>
+	name:scan_position
+	starting_position:-1,-1
+	width:720
+	height:1280
+	title:Position Sensors
+	close_function:scan_position
+	
+	<info>
+		location:2,36
+		special_text:scan_position
+	</info>
+	
+</window>

@@ -1,0 +1,80 @@
+<window>
+	name:main_menu
+	starting_position:-1,-1
+	width:720
+	height:1280
+	title:Main Menu
+	
+	<button>
+		location:-1,86
+		text:Environmental Sensors
+		event:scan_environment
+		sound_moused:moused_1
+		sound_click:click_1
+		font:large
+	</button>
+	
+	<button>
+		location:-1,163
+		text:Position Sensors
+		event:scan_position
+		sound_moused:moused_1
+		sound_click:click_1
+		font:large
+	</button>
+	
+	<button>
+		location:-1,240
+		text:Magnetic Field Sensor
+		event:scan_magnetic
+		sound_moused:moused_1
+		sound_click:click_1
+		font:large
+	</button>
+	
+	<button>
+		location:-1,317
+		text:Acceleration Sensors
+		event:scan_acceleration
+		sound_moused:moused_1
+		sound_click:click_1
+		font:large
+	</button>
+	
+	<button>
+		location:-1,394
+		text:Rotation Sensors
+		event:scan_rotation
+		sound_moused:moused_1
+		sound_click:click_1
+		font:large
+	</button>
+	
+	<button>
+		location:-1,471
+		text:Other Sensors
+		event:scan_other
+		sound_moused:moused_1
+		sound_click:click_1
+		font:large
+	</button>
+	
+	<button>
+		location:-1,548
+		text:Options
+		event:options_window
+		sound_moused:moused_1
+		sound_click:click_1
+		font:large
+	</button>
+	
+	<button>
+		location:-1,625
+		text:Quit
+		event:quit
+		sound_moused:moused_1
+		sound_click:click_1
+		font:large
+	</button>
+	
+</window>

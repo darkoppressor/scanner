@@ -1,0 +1,8 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd $DIR
+
+NDK_PROJECT_PATH=../..
+
+/home/tails/build-server/android/android-ndk/ndk-build

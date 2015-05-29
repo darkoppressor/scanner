@@ -1,0 +1,14 @@
+<window>
+	name:scan_environment
+	starting_position:-1,-1
+	width:720
+	height:1280
+	title:Environmental Sensors
+	close_function:scan_environment
+	
+	<info>
+		location:2,36
+		special_text:scan_environment
+	</info>
+	
+</window>

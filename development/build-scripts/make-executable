@@ -1,0 +1,20 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd $DIR
+
+chmod +x *
+chmod -x version
+
+chmod +x ../refresh-build-date
+chmod +x ../rename-template
+chmod +x ../version-change
+
+chmod +x ../android/adb-logcat
+chmod +x ../android/adb-logcat-all
+chmod +x ../android/android-prep
+
+chmod +x ../android/build-scripts/linux/*
+
+chmod -x ../android/build-scripts/linux/ant.properties
+chmod -x ../android/build-scripts/linux/local.properties

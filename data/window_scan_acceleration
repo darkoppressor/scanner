@@ -1,0 +1,14 @@
+<window>
+	name:scan_acceleration
+	starting_position:-1,-1
+	width:720
+	height:1280
+	title:Acceleration Sensors
+	close_function:scan_acceleration
+	
+	<info>
+		location:2,36
+		special_text:scan_acceleration
+	</info>
+	
+</window>

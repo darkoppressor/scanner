@@ -1,0 +1,14 @@
+<window>
+	name:scan_magnetic
+	starting_position:-1,-1
+	width:720
+	height:1280
+	title:Magnetic Field Sensor
+	close_function:scan_magnetic
+	
+	<info>
+		location:2,36
+		special_text:scan_magnetic
+	</info>
+	
+</window>
