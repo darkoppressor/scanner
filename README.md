@@ -1,5 +1,6 @@
 # scanner
 View data collected by various Android sensors
+http://cheeseandbacon.org/
 
 This is an Android app that simply displays readouts from the various sensors (if they are present). It also displays a few other values, derived from the sensor values (it calculates absolute ambient humidity, etc.)
 Also available on [Google Play](https://play.google.com/store/apps/details?id=org.cheeseandbacon.scanner).
